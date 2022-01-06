@@ -26,7 +26,7 @@ body {
     font-size: 60px;
     font-weight: 300;
     color: #333333;
-    border-left: 5px solid #F5A623;
+    border-left: 5px solid #146fff;
     padding-left: 20px;
     margin: 0;
 }
@@ -34,11 +34,11 @@ body {
     margin: 30px 0;
 }
 .high-light-color {
-    color:#146fff;
+    color:#8011dbb9;
 }
 .button{
     text-decoration: none;
-    background-color: #F5A623;
+    background-color: #146fff;
     color: #f3f3f3;
     padding: 10px 40px;
     border-radius: 5px;
@@ -128,3 +128,14 @@ body {
     background: #ffe394;
 }
 
+footer {
+    text-align: center;
+    background: #0B0D17;
+    color: #f3f3f3;
+    margin-top: 100px;
+    padding: 50px 0;
+}
+footer h1 {
+    font-family: 'Yeseva One', cursive;
+    font-size: 36px;
+}
