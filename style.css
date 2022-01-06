@@ -4,17 +4,22 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 .padding-1 {
+    padding: 100px 100px 20px 100px;
+}
+.padding-2 {
     padding: 50px;
 }
 #hero-area {
     display: flex;
-    padding: 100px 100px 20px 100px;
 }
 .half-width {
     width: 50%;
 }
+.half-width.content-area {
+    margin-right: 200px;
+}
 .half-width img {
-    width: 70%;
+    width: 450px;
 }
 .half-width h1 {
     font-family: 'Yeseva One', cursive;
@@ -68,4 +73,21 @@ body {
 .card.card-3 {
     background-color: #f7e5b5;
     border-radius: 25px;
+}
+
+#develop-area {
+    display: flex;
+    background: url(images/shapes/shape-1.png) no-repeat left center;
+    background-size: 300px 300px;
+}
+#develop-area h2, #community h2{
+    font-size: 36px;
+    margin: 0;
+}
+#community {
+    display: flex;
+    background: url(images/shapes/shape-1.png) no-repeat right bottom;
+    background-size: 300px 300px;
+    margin-bottom: 50px;
+    padding: 0 100px 100px 100px;
 }
