@@ -91,3 +91,40 @@ body {
     margin-bottom: 50px;
     padding: 0 100px 100px 100px;
 }
+#team {
+    padding: 0 100px;
+}
+#team h1{
+    font-size: 48px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 0;
+}
+.team-area {
+    display: flex;
+    text-align: center;
+}
+.person {
+    width: 25%;
+    height: 330px;
+    border-radius: 50%;
+    margin: 10px;
+}
+.person img {
+    width: 250px;
+    margin-top: 40px;
+    
+}
+.person-1 {
+    background: #f83d3d6c;
+}
+.person-2 {
+    background: #9be2f88c;
+}
+.person-3 {
+    background: #ad20203b;
+}
+.person-4 {
+    background: #ffe394;
+}
+
